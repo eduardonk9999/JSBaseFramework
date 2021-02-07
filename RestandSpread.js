@@ -27,5 +27,20 @@ console.log(arr)
 
 // Spread
 /**
- * 
+ * Permite que um objeto literável,como um array ou string,
+ * seja expandida em locais onde zero ou mais argumentos
+ * (para chamadas de função) ou elementos (para literais de array)
+ * sejam esperados ou uma expressão de objeto seja expandida em locais
+ * onde zero ou mais pares de chave-valor (para literais de objeto) são
+ * esperados.
 */
+
+// Ex
+let partes = ['ombros', 'joelhos']
+let corpo = ['cabeça', ...partes]
+
+let arr1 = [0, 1, 2]
+let arr2 = [3, 4, 5]
+
+arr.push(...arr2)
+
